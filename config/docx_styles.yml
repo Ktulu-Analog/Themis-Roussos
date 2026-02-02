@@ -1,0 +1,109 @@
+# Configuration des styles pour l'export DOCX
+# Assistant Juridique Légifrance
+
+metadata:
+  title: "⚖️ analyse Thémis Roussos"
+  author: "Thémis Roussos"
+
+# Style normal (paragraphe par défaut)
+normal:
+  font:
+    name: "Calibri"
+    size: 11
+    color: "#000000"
+  paragraph:
+    alignment: "JUSTIFY"
+    line_spacing: 1.15
+    space_after: 6
+
+# Styles des titres
+headings:
+  "1":
+    font:
+      name: "Calibri"
+      size: 18
+      bold: true
+      color: "#2E5090"
+    paragraph:
+      alignment: "LEFT"
+      space_before: 12
+      space_after: 12
+
+  "2":
+    font:
+      name: "Calibri"
+      size: 14
+      bold: true
+      color: "#2E5090"
+    paragraph:
+      alignment: "LEFT"
+      space_before: 10
+      space_after: 6
+
+  "3":
+    font:
+      name: "Calibri"
+      size: 12
+      bold: true
+      color: "#4472C4"
+    paragraph:
+      alignment: "LEFT"
+      space_before: 8
+      space_after: 4
+
+  "4":
+    font:
+      name: "Calibri"
+      size: 11
+      bold: true
+      color: "#4472C4"
+    paragraph:
+      alignment: "LEFT"
+      space_before: 6
+      space_after: 3
+
+# Style pour les blocs de code
+code_block:
+  font:
+    name: "Courier New"
+    size: 9
+    color: "#000000"
+  paragraph:
+    alignment: "LEFT"
+    left_indent: 0.5
+    space_before: 6
+    space_after: 6
+    line_spacing: 1.0
+
+# Style pour le code inline
+code_inline:
+  font:
+    name: "Courier New"
+    size: 10
+    color: "#C7254E"
+
+# Styles des listes
+lists:
+  bullet:
+    font:
+      name: "Calibri"
+      size: 11
+    paragraph:
+      alignment: "JUSTIFY"
+      left_indent: 0.25
+      line_spacing: 1.15
+      space_after: 3
+
+  number:
+    font:
+      name: "Calibri"
+      size: 11
+    paragraph:
+      alignment: "JUSTIFY"
+      left_indent: 0.25
+      line_spacing: 1.15
+      space_after: 3
+
+# Style des tableaux
+tables:
+  style_name: "Light Grid Accent 1"
