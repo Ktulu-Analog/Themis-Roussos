@@ -1,0 +1,10 @@
+streamlit
+requests
+requests-oauthlib
+openai
+python-dotenv
+pyyaml
+python-docx
+python-dateutil
+plotly
+h2
