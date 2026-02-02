@@ -4,7 +4,7 @@ La version actuelle implémente les 69 endpoints de l'API Légifrance, accessibl
 Parmi les fonctionnalités vous trouverez :
 - interrogation en temps réel des données Légifrance
 - création de timeline automatique avec les dates et infos des principaux textes pertinents
-- sauvegarde automatique des conversations + timeline
+- sauvegarde automatique des conversations + timeline (pour l'instant en local au format JSON en attendant de résoudre mon problème d'endpoint Albert pour les documents)
 - génération de synthèse au format .docx
 
 Vous aurez besoin d'une clé API Albert et des acccès à l'API Légifrance via PISTE.
@@ -14,4 +14,6 @@ Cet outil peut-être adapté à d'autres endpoints compatibles OpenAI. Tout le p
 Pour le moment, il est aussi stable qu'une chaise à 2 pieds.
 Libre à vous de rajouter les pieds manquants et de le modifier, tant que vous respectez la licence GPL 3.0.
 
-2026 - Pierre COUGET
+Version de Python utilisée pour le dev : **3.12.8** (mais ça doit fonctionner avec d'autres versions).
+
+*2026 - Pierre COUGET*
