@@ -16,13 +16,20 @@ Libre à vous de rajouter les pieds manquants et de le modifier, tant que vous r
 
 Version de Python utilisée pour le dev : **3.12.8** (mais ça doit fonctionner avec d'autres versions).
 
-**Installation :**
+**Installation:**
 
+```bash
 pip install -r requirements.txt
+```
 
 éditez le fichier .env-exemple avec vos clés et sauvegardez-le sous .env
 
+
+**Lancement:**
+
+```bash
 streamlit run app.py
+```
 
 -------------------------
 
